@@ -13,8 +13,6 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [],
-    'demo': [
-    'demo/academy_demo.xml',
-    ],
+    'demo': [],
     'application': True,
 }
