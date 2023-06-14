@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="spaceship_01" model="spaceship.spaceship">
+            <field name="name">Mercury</field>
+            <field name="type">freighter</field>
+            <field name="model">Spaceship Mercury</field> 
+            <field name="build_date">Spaceship Mercury</field> 
+        </record>
+    </data>
+</odoo>
