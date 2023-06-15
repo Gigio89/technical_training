@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="task_01" model="volunteer.task">
+            <field name="name">Survey</field>
+            <field name="start_time">2023-06-16 12:00:00</field>
+            <field name="stop_time">2023-06-16 17:00:00</field>
+            <field name="occurences">3</field>
+            <field name="description">Conduct survey for each household</field>
+            <field name="task_type">project</field>
+        </record>
+        <record id="task_02" model="volunteer.task">
+            <field name="name">Mobile School</field>
+            <field name="start_time">2023-06-17 12:00:00</field>
+            <field name="stop_time">2023-06-17 17:00:00</field>
+            <field name="occurences">3</field>
+            <field name="description">Conduct teaching for the children in the orphanage</field>
+            <field name="task_type">to_do</field>
+        </record>
+        <record id="task_03" model="volunteer.task">
+            <field name="name">Feeding Program</field>
+            <field name="start_time">2023-06-18 12:00:00</field>
+            <field name="stop_time">2023-06-18 17:00:00</field>
+            <field name="occurences">3</field>
+            <field name="description">Provide healthy meal for the kindergarten students</field>
+            <field name="task_type">project</field>
+        </record>
+    </data>
+</odoo>
