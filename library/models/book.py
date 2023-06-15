@@ -1,4 +1,4 @@
-from odoo import fields,models
+from odoo import fields, models
 
 class Book(models.Model):
     _name = "library.book"
@@ -6,9 +6,10 @@ class Book(models.Model):
     
     name = fields.Char(string="Title",required=True)
     active = fields.Boolean(string="Active",default=True)
+    
     isbn = fields.Char(string="ISBN")
-    genre = fields.Char(string="Genere")
-    summary = fields.Text(string="Summary")
+    genre = fields.Char(string="Genre")
+    summary = fields.Text()
     author = fields.Char(string="Author")
     format = fields.Selection(string="Format",
                               selection=[
@@ -20,13 +21,11 @@ class Book(models.Model):
     language = fields.Selection(string="Language",
                                 selection=[
                                     ("en","English"),
-                                    ("es","Espanish"),
+                                    ("es","Spanish"),
                                     ("fr","French"),
                                     ("de","German"),
                                 ],)
-    edition = fields.Integer(string="Edition",default=0)
+    edition = fields.Integer(string="Edition")
     publisher = fields.Char(string="Publisher")
     publish_date = fields.Date(string="Publish Date")
-    price = fields.Float(string="Price")
-    
-    
+    price = fields.Float(string="Price")  
