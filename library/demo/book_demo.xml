@@ -6,12 +6,39 @@
             <field name="isbn">TSL110</field>
             <field name="genre">Science</field>
             <field name="summary">Planets,Electricity,Living Things,Elements,Scientist, Experiment</field>
+            <field name="author">H.Wat</field>
+            <field name="format">paperback</field>
+            <field name="language">en</field>
+            <field name="edition">1</field>
+            <field name="publisher">ReadersChoice</field>
+            <field name="publish_date">2023-06-15</field>
+            <field name="price">10.00</field>
         </record>
         <record id="book_02" model="library.book">
             <field name="name">Guiness Book of World Record</field>
             <field name="isbn">GBWR002</field>
             <field name="genre">General</field>
             <field name="summary">2020 World record</field>
+            <field name="author">C.Patty</field>
+            <field name="format">hardcover</field>
+            <field name="language">es</field>
+            <field name="edition">1</field>
+            <field name="publisher">Alexa</field>
+            <field name="publish_date">2023-06-16</field>
+            <field name="price">15.00</field>
+        </record>
+         <record id="book_03" model="library.book">
+            <field name="name">Guiness Book of World Record</field>
+            <field name="isbn">GBWR002</field>
+            <field name="genre">General</field>
+            <field name="summary">2020 World record</field>
+             <field name="author">J.Howell</field>
+            <field name="format">audiobook</field>
+            <field name="language">de</field>
+            <field name="edition">1</field>
+            <field name="publisher">Amazon</field>
+            <field name="publish_date">2023-06-17</field>
+            <field name="price">20.00</field>
         </record>
     </data>
 </odoo>
