@@ -5,7 +5,7 @@
     'license': 'OPL-1',
     'author': 'Gigio89',
     'website': 'www.infinion.ch',
-    'category': 'Custom Modules',
+    'category': 'Custom Modules/Tech Training',
     'version': '1.0',
     'depends': ['base'],
     'data': [],
