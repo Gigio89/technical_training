@@ -5,7 +5,40 @@
             <field name="name">Mercury</field>
             <field name="type">freighter</field>
             <field name="model">Spaceship Mercury</field> 
-            <field name="build_date">Spaceship Mercury</field> 
+            <field name="build_date">2000-01-01</field>
+            <field name="captain">John Cruz</field> 
+            <field name="required_crew">5</field>
+            <field name="length">15.0</field>
+            <field name="width">5.0</field>
+            <field name="height">3.0</field>
+            <field name="engine_number">eng1</field>
+            <field name="fuel_type">solid_fuel</field>
+        </record>
+        <record id="spaceship_02" model="spaceship.spaceship">
+            <field name="name">Venus</field>
+            <field name="type">transport</field>
+            <field name="model">Spaceship Venus</field> 
+            <field name="build_date">2010-01-01</field>
+            <field name="captain">Peter Parker</field>
+            <field name="required_crew">10</field>
+            <field name="length">15.0</field>
+            <field name="width">5.0</field>
+            <field name="height">3.0</field>
+            <field name="engine_number">eng2</field>
+            <field name="fuel_type">liquid_fuel</field>
+        </record>
+        <record id="spaceship_03" model="spaceship.spaceship">
+            <field name="name">Earth</field>
+            <field name="type">fighter</field>
+            <field name="model">Spaceship Earth</field> 
+            <field name="build_date">2023-01-01</field>
+            <field name="captain">Forrest Gump</field>
+            <field name="required_crew">10</field>
+            <field name="length">15.0</field>
+            <field name="width">5.0</field>
+            <field name="height">3.0</field>
+            <field name="engine_number">eng3</field>
+            <field name="fuel_type">liquid_fuel</field>
         </record>
     </data>
 </odoo>
