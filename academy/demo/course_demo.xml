@@ -16,5 +16,10 @@
             <field name="description">Learn HTML Basics</field>
             <field name="level">beginner</field>
         </record>
+        <record id="course_04" model="academy.course">
+            <field name="name">Python OOP</field>
+            <field name="description">Object Oriented Programming in Python</field>
+            <field name="level">advanced</field>
+        </record>
     </data>
 </odoo>
