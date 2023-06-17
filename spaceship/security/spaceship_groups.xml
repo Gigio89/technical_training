@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_spaceship_admin" model="res.groups">
+        <field name="name">Spaceship/Admin</field>
+    </record>
+    <record id="group_spaceship_user" model="res.groups">
+        <field name="name">Spaceship/User</field>
+    </record>
+</odoo>
