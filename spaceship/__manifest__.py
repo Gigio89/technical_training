@@ -8,7 +8,11 @@
     'category': 'Custom Modules/Tech Training',
     'version': '1.0',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/spaceship_groups.xml',
+        'security/ir.model.access.csv',
+        'security/spaceship_security.xml',
+    ],
     'demo': [
         'demo/spaceship_demo.xml',
     ],
