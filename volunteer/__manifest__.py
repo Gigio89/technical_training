@@ -8,7 +8,11 @@
     'category': 'Custom Modules/Tech Training',
     'version': '1.0',
     'depends': ['base'],
-    'data': [],
+    'data': [
+        'security/volunteer_groups.xml',
+        'security/volunteer_security.xml',
+        'security/ir.model.access.csv',
+    ],
     'demo': [
         'demo/task_demo.xml',
     ],

@@ -1,0 +1,4 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+course_admin,course admin,model_volunteer_task,group_volunteer_admin,1,1,1,1
+course_user,course user,model_volunteer_task,group_volunteer_user,1,1,0,0
+course_read_all,course read all,model_volunteer_task,,1,0,0,0
