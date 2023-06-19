@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.actions.act_window" id="task_list_action">
+        <field name="name">Task</field>
+        <field name="res_model">volunteer.task</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                 Create the task
+            </p>
+        </field>
+    </record>
+
+    <menuitem name="Volunteer Task" 
+        id="menu_volunteer" 
+        sequence="1"
+        web_icon="volunteer,static/description/icon.png">
+        <menuitem id="menu_volunteer_sub" name="Volunteer Task" sequence="1">
+            <menuitem id="menu_volunteer_tasks" name="Tasks" sequence="2" action="task_list_action"/>
+        </menuitem>
+    </menuitem>
+</odoo> 
