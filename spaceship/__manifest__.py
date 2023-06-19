@@ -12,6 +12,7 @@
         'security/spaceship_groups.xml',
         'security/ir.model.access.csv',
         'security/spaceship_security.xml',
+        'views/spaceship_menuitems.xml',
     ],
     'demo': [
         'demo/spaceship_demo.xml',
