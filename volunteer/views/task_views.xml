@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="task_view_form" model="ir.ui.view">
+        <field name="name">task.view.form</field>
+        <field name="model">volunteer.task</field>
+        <field name="arch" type="xml">
+            <form string="Task View">
+                <header></header>
+                <sheet>
+                    <h1><field name="name"/></h1>
+                    <group>
+                        <group>
+                            <field name="start_time"/>
+                            <field name="stop_time"/>
+                        </group>
+                        <group>
+                            <field name="task_type"/>
+                            <field name="occurences"/>                
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="description">
+                            <field name="description"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+     <record id="task_view_list" model="ir.ui.view">
+        <field name="name">task.view.list</field>
+        <field name="model">volunteer.task</field>
+        <field name="arch" type="xml">
+            <tree string="Task List">
+                <field name="name"/>
+                <field name="start_time"/>
+                <field name="stop_time"/>
+                <field name="task_type"/>
+                <field name="occurences"/>
+            </tree>
+        </field>
+     </record>
+    <record id="task_view_search" model="ir.ui.view">
+        <field name="name">task.view.search</field>
+        <field name="model">volunteer.task</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="description"/>
+                <filter name="groupby_task_type" string="Task Type" context="{'group_by':'task_type'}"/>
+                <filter name="filter_start_time" string="Start Time" context="{'filter':'start_time'}"/>
+                <filter name="filter_stop_time" string="Stop Time" context="{'filter':'stop_time'}"/>
+            </search>
+        </field>
+    </record>
+</odoo>
