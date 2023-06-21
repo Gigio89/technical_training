@@ -9,7 +9,7 @@ class Book(models.Model):
     
     isbn = fields.Char(string="ISBN")
     genre = fields.Char(string="Genre")
-    summary = fields.Text()
+    summary = fields.Text(string="Summary")
     author = fields.Char(string="Author")
     format = fields.Selection(string="Format",
                               selection=[
